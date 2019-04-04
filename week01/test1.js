@@ -95,7 +95,7 @@ console.log('10.-------------------');
 let person ={firstname: "Anna", lastName:"Svensson", age:45};
 console.log(person);
 //Infinity
-let maxNumber = Math.pow(10, 1000); // max positive number
+let maxNumber = Math.pow(10, 1000); // max positive number 10*10(1000times)
 console.log('MaxNumber is = ',maxNumber);
 if (maxNumber === Infinity) {
   console.log("Let's call it Infinity! ");
