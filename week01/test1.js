@@ -38,7 +38,7 @@ console.log('5.-------------------');
 let z= 7.25;
 console.log('Print z = ', z);
 aa = z;
-console.log('Print a = ', Math.round(aa));
+console.log('Print aa = ', Math.round(aa));
 x = Math.max(aa, z);
 console.log('Print highest value = ', x);
 //6 Array
@@ -94,8 +94,20 @@ console.log('Print 7 % 3 = ', x);
 console.log('10.-------------------');
 let person ={firstname: "Anna", lastName:"Svensson", age:45};
 console.log(person);
+//Infinity
+let maxNumber = Math.pow(10, 1000); // max positive number
+console.log('MaxNumber is = ',maxNumber);
+if (maxNumber === Infinity) {
+  console.log("Let's call it Infinity! ");
+  // expected output: "Let's call it Infinity!"
+}
 
-    let a = isFinite(123);
+console.log(1 / maxNumber);
+// expected output: 0
+
+
+
+  /*  let a = isFinite(123);
     let b = isFinite(-1.23);
     let c = isFinite(5-2);  
     let d = isFinite(0);
@@ -103,5 +115,5 @@ console.log(person);
     let f = isFinite("Hello");
     let g = isFinite("2005/12/12");
     let result = a +b +c +d+e+f+g;
-    console.log('Print result ', result);
+    console.log('Print result ', result);*/
 
