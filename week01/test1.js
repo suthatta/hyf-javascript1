@@ -11,6 +11,7 @@ console.log("Sawad dee" +' // Thailandska');
 
 //2. console.log('I'm awesome');
 console.log("I'm awesome");
+console.log('I\'m awesome');
 // 3
 let x;
 console.log("the value of x will be: whateverYouThinkItWillLog");
@@ -36,6 +37,7 @@ aa = z;
 console.log('Print aa = ', Math.round(aa));
 x = Math.max(aa, z);
 console.log('Print highest value = ', x);
+
 //6 Array
 let myArray=[];
 console.log("the value of my Array will be: whateverYouThinkItWillLog");
@@ -43,8 +45,11 @@ console.log(typeof(myArray));
 myArray = ['Cat', 'Dog', 'Pig'];
 console.log('Print myFavoritAnimals = ', myArray);
 //add Daan's favorite animal ('baby pig)
-myArray[3]= "Daan's favorite animal ('baby pig')";
+//myArray[3]= "Daan's favorite animal ('baby pig')";
+myArray.push("baby pig");
 console.log('Print myFavoritAnimals = ', myArray);
+
+
 
 //7 more string
 
@@ -69,7 +74,7 @@ console.log("Type of variable number is: " + typeof(number));
 console.log("Type of variable array is: " + typeof(array));
 console.log("Type of variable boolean is: " + typeof(boolean));
 // compare type of 
-if (typeof(text)== typeof(number)==typeof(array)==typeof(boolean)){
+if (typeof(text)=== typeof(number)===typeof(array)===typeof(boolean)){
     console.log('SAME TYPE');
 }
 else {
@@ -100,6 +105,7 @@ console.log(1 / maxNumber);
 
 
 
+
   /*  let a = isFinite(123);
     let b = isFinite(-1.23);
     let c = isFinite(5-2);  
@@ -110,3 +116,4 @@ console.log(1 / maxNumber);
     let result = a +b +c +d+e+f+g;
     console.log('Print result ', result);*/
 
+// Example
