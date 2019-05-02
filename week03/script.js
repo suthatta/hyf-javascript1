@@ -23,7 +23,7 @@ function getCurrentAge(person) {
   if (today.month <= person.dob_month || today.month > person.dob_month && today.day < person.dob_day || 
     today.day> person.dob_day) 
   {
-    return age;
+    return age--;
   }
 }
 
