@@ -1,1 +1,2 @@
-Javascript week 01
+Javascript 
+https://github.com/foocoding/JavaScript1
